@@ -1,0 +1,27 @@
+car = {
+	"id": int,
+	"brand": string,
+	"model": string,
+	"number": string,
+	"ETag": int
+}
+
+worker = {
+	"id": int,
+	"name": string,
+	"surname": string,
+	"age": int,
+	"ETag": int
+}
+
+allocation = {
+	"id": int,
+	"cid": int,
+	"wid": int,
+	"ETag": int
+}
+
+car = {
+	"fromWid": int,
+	"toWid": int
+}
